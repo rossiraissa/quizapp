@@ -6,7 +6,7 @@
     -webkit-font-smoothing: antialiased;
 }
 
-:root{
+:root {
     --bg-color: #f4f6fa;
     --purple: #a729f5;
     --primary-text-color: #313e51;
@@ -146,6 +146,24 @@ main {
         margin-block: 81px;
     }
 
+    .tema {
+        gap: 16px
+    }
+
+    .tema img {
+        width: 24px;
+    }
+
+    .tema button {
+        width: 48px;
+        height: 28px;
+    }
+
+    .tema button div {
+        width: 20px;
+        height: 20px;
+    }
+    
     main {
         display: flex;
         max-width: 1160px;
