@@ -157,7 +157,7 @@ main {
     }
     
     .tema {
-        gap: 16px
+        gap: 16px;
     }
 
     .tema img {
