@@ -140,7 +140,7 @@ main {
     margin-bottom: 12px;
 }
 
-.alternativas label{
+.alternativas label {
     display: block;
     background: var(--button-bg);
     padding: 12px;
@@ -149,6 +149,15 @@ main {
     border-radius: 12px;
     box-shadow: var(--shadow);
     color: var(--primary-text-color)
+}
+
+.alternativas label:has(input:checked) {
+    outline: 3px solid var(--purple);
+
+    & span {
+        background: var(--purple);
+        color: var(--white);
+    }
 }
 
 .alternativas input {
